@@ -6,12 +6,23 @@ This is a simple DateTimePicker plugin that uses jquery and moment.js to let the
 It uses the moment.js locale format but it may be customizable in the next versions.
 
 # Usage
-Reference jquery and moment.js
+Reference jquery, moment.js, bootstrap and  font-awesome
 ```html
+  <script src="bootstrap.min.js"></script>
   <script src="jQuery-2.1.4.min.js"></script>
   <script src="moment.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <link href="bootstrap.min.css" rel="stylesheet"/>
+  <link href="font-awesome.min.css" rel="stylesheet"/>
 ```
 
+Referenze jquery.datetimepicker.js and datetimepicker.css
+```html
+  <script src="jquery.datetimepicker.min.js"></script>
+  <link href="datetimepicker.css" rel="stylesheet"/>
+```
+
+Initialize datetimepicker
 ```html
 <input type="text" name="" id="calendartest" />
 <script>

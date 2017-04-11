@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>jquery.datetimepicker Demo</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="../datetimepicker.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <input type="text" name="" id="calendartest" />
+    <script src="../js/jQuery-2.1.4.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/moment.js"></script>
+    <script src="../jquery.datetimepicker.min.js"></script>
+    <script>
+      $(document).ready(function () {
+                $("#calendartest").datetimepicker({
+                    locale: "it",
+                    daysOfWeek: [1, 2, 3, 4, 5],
+                    timePicker: true,
+                    onlyForward: true,
+                    timePickerIncrement: 20,
+                    timePickerIgnoreRanges: [
+                        { startTime: "0:00:00", endTime: "8:00:00" },
+                        { startTime: "13:00:00", endTime: "14:00:00" },
+                        { startTime: "19:00:00", endTime: "23:59:59" }
+                    ]
+                });
+            });
+    </script>
+  </body>
+</html>
