@@ -1,0 +1,88 @@
+﻿.datetimepicker
+{
+    position: absolute;
+    background: #fff;
+    border-radius: 4px;
+    width: 250px;
+    padding: 0 10px;
+    box-shadow: rgba(0, 0, 0, 0.172549) 0px 6px 12px 0px;
+}
+
+.datetimepicker #seltime
+{
+    width: 80%;
+    margin-left: 2%;
+}
+
+.datetimepicker #seltime:disabled
+{
+    background: #999;
+}
+
+
+.datetimepicker .datetimepicker-head, .datetimepicker .datetimepicker-timepickerhead
+{
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin: 0 0 3px 0;
+    text-align: center;
+}
+
+
+.datetimepicker .datetimepicker-head > div
+{
+    text-align: center;
+    display: inline-block;
+}
+
+.datetimepicker .mid-head, .datetimepicker .mid-timepickerhead
+{
+    width: 80%;
+}
+
+.datetimepicker .left-head, .datetimepicker .right-head, .datetimepicker .left-timepickerhead, .datetimepicker .right-timepickerhead
+{
+    width: 10%;
+    cursor: pointer;
+}
+.datetimepicker table 
+{
+    margin: 0 auto;
+}
+
+.datetimepicker table .daycolumn
+{
+    padding: 2px;
+}
+
+.datetimepicker table .daycell
+{
+    text-align: center;
+    cursor: pointer;
+}
+
+.datetimepicker table .daycell:hover
+{
+    background: #afd6ff;
+}
+
+.datetimepicker table .daycell.selected
+{
+    background: #238cfc;
+}
+
+.datetimepicker table .samemonth
+{
+    font-weight: bold;
+}
+
+.datetimepicker table .invaliddate
+{
+    font-weight: lighter;
+    cursor: not-allowed;
+}
+
+.datetimepicker table .today
+{
+    background: #71d2fe;
+}
