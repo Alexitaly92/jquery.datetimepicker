@@ -1,5 +1,9 @@
-﻿/*
- * jquery.datetimepicker v1
+﻿/**
+* @version: 1.0.0
+* @author: Aleksi Smith Cendron
+* @copyright: Copyright (c) 2017-2017 Aleksi Smith Cendron. All rights reserved.
+* @license: Licensed under the MIT license. See http://www.opensource.org/licenses/mit-license.php
+* @website: https://github.com/Alexitaly92/jquery.datetimepicker
 */
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {
